@@ -61,7 +61,7 @@ python -u Cifar10_runs.py  \
 * `wandb_project`: Weights and bias project to store the results to
 
 
-## Experiments with on normalized GD and log sharpness minimizer on MNIST
+## Experiments with normalized GD and log sharpness minimizer on MNIST
 To run normalized GD and GD with sqrt loss, please look at submit_mnist.sh and run_mnist.sh. The overview of the command in run_mnist.sh is as follows.
 ```bash
 python mnist_runs.py \
